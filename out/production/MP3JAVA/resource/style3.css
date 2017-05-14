@@ -1,0 +1,40 @@
+.slider .track {
+    -fx-background-color: none;  /* Hide the track */
+	//-fx-background-radius: 50px 50px 50px 50px;
+}
+
+.slider .thumb {
+	-fx-focus-color: #dd1544;
+	-fx-background-color: #000000;
+	-fx-outline: none;
+}
+
+.label{
+	-fx-font: 10px Tahoma;
+	-fx-text-fill: #bbbbbb; 
+}
+
+.button{
+	-fx-focus-color: #dd1544;
+	-fx-background-color: #dd1544;
+}
+
+.progress-bar > .bar{
+      -fx-background-radius: 15px 15px 15px 15px;
+	  -fx-background-insets: 0 0 0 0;
+	  -fx-background-color: #dd1044;
+}
+
+.progress-bar > .track{
+      -fx-background-color: #bbbbbb; 
+}
+
+.progress-bar{
+	-fx-background-color: none;
+}
+
+.root { 
+	-fx-focus-color: transparent; 
+	-fx-faint-focus-color: transparent;
+	-fx-background-color: #222222;
+}

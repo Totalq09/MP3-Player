@@ -1,0 +1,86 @@
+.slider .track {
+    -fx-background-color: none;  /* Hide the track */
+	//-fx-background-radius: 50px 50px 50px 50px;
+}
+
+.slider .thumb {
+	-fx-focus-color: orange;
+	-fx-background-color: #000000;
+	-fx-outline: none;
+}
+
+.label{
+	-fx-font: 10px Tahoma;
+	-fx-text-fill: #bbbbbb; 
+}
+
+.button{
+	-fx-focus-color: orange;
+	-fx-background-color: orange;
+}
+
+.progress-bar > .bar{
+      -fx-background-radius: 50px 50px 50px 50px;
+	  -fx-background-insets: 0 0 0 0;
+	  -fx-background-color: orange;
+}
+
+.progress-bar > .track{
+      //-fx-background-color: #bbbbbb; 
+}
+
+.progress-bar{
+	-fx-background-color: none;
+}
+
+.root { 
+	-fx-focus-color: transparent; 
+	-fx-faint-focus-color: transparent;
+	-fx-background-color: #222222;
+}
+
+.table-view .filler{
+	-fx-background-color: transparent;
+}
+
+.table-view {
+    -fx-base: transparent;
+	-fx-text-fill: #bbbbbb; 
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .scroll-bar .thumb{
+	-fx-background-color: black;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #bbbbbb; 
+	-fx-table-cell-border-color: #bbbbbb;
+}
+
+.table-view .table-cell{
+	-fx-text-fill: #bbbbbb; 
+}
+
+.table-view .table-cell:empty{
+	-fx-background-color: transparent; 
+}
+
+.table-row-cell:odd{
+	-fx-background-color: #1d1d1d;
+}
+.table-row-cell:even{
+	-fx-background-color: #3d3d3d;
+}
+
+.table-row-cell:selected {
+	-fx-background-color: rgba(255, 165, 0, 0.3);
+	-fx-table-cell-border-color:  transparent;
+}
+
+.table-row-cell:empty{
+	-fx-background-color: transparent;
+}
